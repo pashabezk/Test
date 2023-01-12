@@ -26,21 +26,21 @@
 #### Профиль пользователя
 В профиле отображается информация о партиях. В зависимости от статуса партии, она выделяется цветом
 
-<img src="screenshots/profile.png" width="500" alt="Профиль">
+<img src="Screenshots/profile.png" width="500" alt="Профиль">
 
 Дизайн сайта является адаптивным, поэтому он хорошо смотрится как на больших экранах, так и на мобильных устройствах
 
-<img src="screenshots/profile_mobile.jpg" width="200" alt="Профиль с мобильного телефона">
+<img src="Screenshots/profile_mobile.jpg" width="200" alt="Профиль с мобильного телефона">
 
 #### Игровое поле
-<img src="screenshots/game.jpg" width="200" alt="Игровое поле">
+<img src="Screenshots/game.jpg" width="200" alt="Игровое поле">
 
 #### Экран завершённой партии
-<img src="screenshots/win.png" width="500" alt="Экран завершённой партии">
+<img src="Screenshots/win.png" width="500" alt="Экран завершённой партии">
 
 #### Экраны регистрации и авторизации
-<img src="screenshots/registration.png" width="500" alt="Регистрация"><br/>
-<img src="screenshots/auth.png" width="500" alt="Авторизация">
+<img src="Screenshots/registration.png" width="500" alt="Регистрация"><br/>
+<img src="Screenshots/auth.png" width="500" alt="Авторизация">
 
 #### 404 error
-<img src="screenshots/404.png" width="500" alt="404page">
+<img src="Screenshots/404.png" width="500" alt="404page">
