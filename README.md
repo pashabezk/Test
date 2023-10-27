@@ -1,5 +1,6 @@
 #### Тест на ссылку
 [click](/Screenshots)
+[click](/index.html)
 
 # Шашки онлайн
 
