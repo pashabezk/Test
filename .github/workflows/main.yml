@@ -4,7 +4,7 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - "/Lab1/Base"
+      - "/Lab3/Base"
       - "/.github/workflows"
   workflow_dispatch: # to allow run action via github interface
 

@@ -4,7 +4,7 @@ LABEL type="telegram_bot" team="pashabezk, dimbikey, rendex85, kubachinIlya"
 
 WORKDIR /src
 
-COPY ./src_good /src
+COPY ./src /src
 
 RUN pip install --no-cache-dir -r /src/requirements.txt
 
