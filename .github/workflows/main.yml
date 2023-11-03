@@ -16,7 +16,7 @@ jobs:
 
     defaults:
       run:
-        working-directory: "/Lab1/Base"
+        working-directory: "/Lab3/Base"
 
     steps:
       - name: Checkout repository
@@ -31,6 +31,6 @@ jobs:
       - name: Build and push to Docker hub
         uses: docker/build-push-action@v2
         with:
-          context: ./Lab1/Base/
+          context: ./Lab3/Base/
           push: true
           tags: pashabezk/itmo_clouds:${{ github.run_number }}
