@@ -5,6 +5,7 @@ on:
     branches: [ "main" ]
     paths:
       - "/Lab1/Base"
+      - "/.github/workflows"
   workflow_dispatch: # to allow run action via github interface
 
 jobs:
