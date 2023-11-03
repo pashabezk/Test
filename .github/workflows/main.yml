@@ -4,8 +4,8 @@ on:
   push:
     branches: [ "main" ]
     paths:
-      - "/Lab3/Base"
-      - "/.github/workflows"
+      - "/Lab3/Base/**"
+      - "/.github/workflows/**"
   workflow_dispatch: # to allow run action via github interface
 
 jobs:
@@ -33,4 +33,4 @@ jobs:
         with:
           context: ./Lab3/Base/
           push: true
-          tags: pashabezk/itmo_clouds:${{ github.run_number }}
+          tags: pashabezk/itmo_clouds:${{ github.run_number }} , pashabezk/itmo_clouds:latest
