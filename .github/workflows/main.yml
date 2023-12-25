@@ -1,17 +1,15 @@
-name: Docker CI/CD
+name: Auto publish docker image
 
 on:
   push:
     branches: [ "main" ]
-    paths:
+    paths: # action will run only if changes paths below
       - "Lab3/Base/**"
       - ".github/workflows/**"
   workflow_dispatch: # to allow run action via github interface
 
 jobs:
-
-  build: # job name
-
+  build_and_push: # job name
     runs-on: ubuntu-latest
 
     defaults:
@@ -33,4 +31,4 @@ jobs:
         with:
           context: ./Lab3/Base/
           push: true
-          tags: pashabezk/itmo_clouds:${{ github.run_number }} , pashabezk/itmo_clouds:latest
+          tags: pashabezk/tic-tac-toe-tg-bot:${{ github.run_number }} , pashabezk/tic-tac-toe-tg-bot:latest
